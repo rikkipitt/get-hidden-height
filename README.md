@@ -6,9 +6,18 @@
 
 This is useful for animating the height of a hidden element while making it visible.
 
+## Installation 
+
+```
+npm install -S atd-hidden-height
+```
+
+
 ## Usage
 
 ```
+import getHiddenHeight from 'get-hidden-height';
+
 getHiddenHeight(el, overrideStyles);
 ```
 

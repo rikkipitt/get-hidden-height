@@ -1,0 +1,16 @@
+{
+  "name": "get-hidden-height",
+  "version": "1.0.0",
+  "description": "A function that takes a currently hidden element and returns its height as if it were visible.",
+  "main": "getHiddenHeight.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobotsPlay/get-hidden-height.git"
+  },
+  "author": "John Graham @RobotsPlay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobotsPlay/get-hidden-height/issues"
+  },
+  "homepage": "https://github.com/RobotsPlay/get-hidden-height#readme"
+}
