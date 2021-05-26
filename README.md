@@ -1,6 +1,6 @@
 # get-hidden-height
 
-`v.1.0.0`
+`v.1.0.1`
 
 `getHiddenHeight` is a function that takes a currently hidden element and returns its height as if it were visible. It works by invisibly cloning the element within its parent, measuring the height of the clone, then removing the clone from the parent.
 
@@ -9,7 +9,7 @@ This is useful for animating the height of a hidden element while making it visi
 ## Installation 
 
 ```
-npm install -S atd-hidden-height
+npm install --save get-hidden-height
 ```
 
 
