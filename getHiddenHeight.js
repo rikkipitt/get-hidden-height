@@ -10,7 +10,7 @@ const visibleStyles = {
 export function getHiddenHeight(el, overrideStyles = {}) {
     let height = 0;
     
-    if(!el?.cloneNode) {
+    if(!el && !el.cloneNode) {
         return height;
     }
 
